@@ -1,0 +1,8 @@
+<h1><%= projet %></h1>
+
+<p>Work in progress... pages :<%= pages %></p>
+<p>
+<% pages.forEach(function(page, index) { %>
+    <li><a href="./<%= projet %>/<%= page %>"><%= page %></a></li>
+<% }); %>
+</p>
